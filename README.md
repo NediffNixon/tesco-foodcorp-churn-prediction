@@ -2,9 +2,7 @@
 
 This project focuses on developing a churn prediction model using real-world customer transaction data from **Tesco**. The primary goal was to identify patterns and early indicators of customer churn to inform retention strategies.
 
-> 🔒 Due to a Data Sharing Agreement (DSA), the dataset used in this project **cannot be shared publicly**.
-
-> 🏅 This work was part of an academic/industrial collaboration with Tesco.
+> 🔒 Due to a Data Sharing Agreement (DSA), the dataset used in this project **cannot be shared publicly** as it contains real Tesco customer transaction data.
 
 > 🏅 This work received **Distinction** as part of my academic submission at the University of Nottingham.
 
