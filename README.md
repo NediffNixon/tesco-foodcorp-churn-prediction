@@ -11,7 +11,7 @@ This project focuses on developing a churn prediction model using real-world cus
 
 - Built a machine learning pipeline to predict customer churn using anonymized retail data.
 - Feature engineering was conducted directly within **PostgreSQL**, focusing on temporal patterns, transaction recency, frequency, and monetary value.
-- Evaluated multiple classifiers including **Logistic Regression**, **Random Forest**, and **XGBoost**.
+- Evaluated multiple classifiers including **Decision Tree**, **Random Forest**, and **XGBoost**.
 - XGBoost performed best based on AUC and F1 score.
 
 ---
