@@ -4,7 +4,9 @@ This project focuses on developing a churn prediction model using real-world cus
 
 > 🔒 Due to a Data Sharing Agreement (DSA), the dataset used in this project **cannot be shared publicly** as it contains real Tesco customer transaction data.
 
-> 📘 A detailed explanation of the methodology and results is available in the [coursework_report.pdf](coursework_report.pdf) included in this repository.
+> 📘 A detailed explanation of the methodology and results is available in the [coursework_report.pdf](docs/coursework_report.pdf) included in this repository.
+
+> 📘 A supporting document is available explaning how to run the model in the [supporting_documentation.pdf](docs/supporting_documentation.pdf) included in this repository.
 
 ---
 
@@ -21,10 +23,24 @@ This project focuses on developing a churn prediction model using real-world cus
 
 - ⏳ Time-based features created with SQL window functions and temporal aggregations
 - ⚙️ Scikit-learn pipeline with model training and cross-validation
-- 📊 Performance evaluated with AUC, Precision, Recall, and F1 Score
+- 📊 Performance evaluated with Balanced Accuracy score, AUC, Precision, Recall, and F1 Score
 - 🧪 Model explainability using SHAP
 
 ---
+
+## Installation (Conda)
+
+```bash
+# Clone this repository
+git clone https://github.com/nediffnixon/tesco-foodcorp-churn-prediction.git
+cd tesco-foodcorp-churn-prediction
+
+# Create and activate conda environment
+conda env create -f environment.yml
+conda activate churn_prediction_env
+```
+---
+
 ## 🛠️ Technologies Used
 Python
 
@@ -36,5 +52,9 @@ XGBoost
 
 SHAP
 
-## 📄 License
-This project is licensed under the MIT License.
+Optuna
+
+PostgreSQL
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

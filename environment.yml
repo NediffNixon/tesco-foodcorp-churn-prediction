@@ -1,0 +1,21 @@
+name: churn_prediction_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9.16
+  - pip
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - plotly
+  - imbalanced-learn
+  - scikit-learn
+  - tqdm
+  - xgboost
+  - optuna
+  - optuna-integration
+  - pdpbox
+  - shap
+  - psycopg2
