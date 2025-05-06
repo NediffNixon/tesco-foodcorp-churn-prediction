@@ -2,15 +2,15 @@
 
 This project focuses on developing a churn prediction model using real-world customer transaction data from **Tesco**. The primary goal was to identify patterns and early indicators of customer churn to inform retention strategies.
 
-> 🔒 Due to a Data Sharing Agreement (DSA), the dataset used in this project **cannot be shared publicly** as it contains real Tesco customer transaction data.
+> Due to a Data Sharing Agreement (DSA), the dataset used in this project **cannot be shared publicly** as it contains real Tesco customer transaction data.
 
-> 📘 A detailed explanation of the methodology and results is available in the [coursework_report.pdf](docs/coursework_report.pdf) included in this repository.
+> A detailed explanation of the methodology and results is available in the [coursework_report.pdf](docs/coursework_report.pdf) included in this repository.
 
-> 📘 A supporting document is available explaning how to run the model in the [supporting_documentation.pdf](docs/supporting_documentation.pdf) included in this repository.
+> A supporting document is available explaning how to run the model in the [supporting_documentation.pdf](docs/supporting_documentation.pdf) included in this repository.
 
 ---
 
-## 🧠 Project Overview
+## Project Overview
 
 - Built a machine learning pipeline to predict customer churn using anonymised retail data.
 - Feature engineering was conducted directly within **PostgreSQL**, focusing on temporal patterns, transaction recency, frequency, and monetary value.
@@ -19,7 +19,7 @@ This project focuses on developing a churn prediction model using real-world cus
 
 ---
 
-## 💡 Key Highlights
+## Key Highlights
 
 - ⏳ Time-based features created with SQL window functions and temporal aggregations
 - ⚙️ Scikit-learn pipeline with model training and cross-validation
@@ -41,7 +41,7 @@ conda activate churn_prediction_env
 ```
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 Python
 
 scikit-learn
